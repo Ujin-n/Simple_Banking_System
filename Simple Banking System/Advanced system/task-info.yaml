@@ -390,9 +390,9 @@ feedback_link: https://hyperskill.org/projects/109/stages/594/implement
 status: Failed
 feedback:
   message: |-
-    Wrong answer in test #8
+    Wrong answer in test #9
 
-    Account balance is wrong after adding income. Expected 10000
+    Incorrect account balance of the card used to make the transfer.
 
     Please find below the output of your program during this failed test.
     Note that the '>' character indicates the beginning of the input line.
@@ -406,28 +406,106 @@ feedback:
 
     Your card has been created
     Your card number:
-    4000008342419103
+    4000002966834754
     Your card PIN:
-    0958
+    4432
+
+    1. Create an account
+    2. Log into account
+    0. Exit
+    > > 1
+
+    Your card has been created
+    Your card number:
+    4000001725510853
+    Your card PIN:
+    1742
 
     1. Create an account
     2. Log into account
     0. Exit
     > > 2
     Enter your card number:
-    > > 4000008342419103
+    > > 4000002966834754
     Enter your pin:
-    > > 0958
+    > > 4432
 
-    Wrong card number or PIN!
+    You have successfully logged in!
 
-    1. Create an account
-    2. Log into account
+    1. Balance
+    2. Add income
+    3. Do transfer
+    4. Close account
+    5. Log out
     0. Exit
-    > > 2
-    Enter your card number:
+    > > 3
+
+    Transfer
+    Enter card number:
+    > > 4000003972196502
+    Probably you made mistake in the card number. Please try again!
+
+    1. Balance
+    2. Add income
+    3. Do transfer
+    4. Close account
+    5. Log out
+    0. Exit
+    > > 3
+
+    Transfer
+    Enter card number:
+    > > 3000003972196503
+    Such a card does not exist.
+
+    1. Balance
+    2. Add income
+    3. Do transfer
+    4. Close account
+    5. Log out
+    0. Exit
+    > > 3
+
+    Transfer
+    Enter card number:
+    > > 4000001725510853
+    Enter how much money you want to transfer:
     > > 10000
-    Enter your pin:
+    Not enough money!
+
+    1. Balance
+    2. Add income
+    3. Do transfer
+    4. Close account
+    5. Log out
+    0. Exit
+    > > 2
+
+    Enter income:
+    > > 20000
+    Income was added!
+
+    1. Balance
+    2. Add income
+    3. Do transfer
+    4. Close account
+    5. Log out
+    0. Exit
+    > > 3
+
+    Transfer
+    Enter card number:
+    > > 4000001725510853
+    Enter how much money you want to transfer:
+    > > 10000
+    Not enough money!
+
+    1. Balance
+    2. Add income
+    3. Do transfer
+    4. Close account
+    5. Log out
+    0. Exit
     >
-  time: Fri, 10 Jul 2020 16:11:21 UTC
+  time: Fri, 10 Jul 2020 16:34:27 UTC
 record: 4
