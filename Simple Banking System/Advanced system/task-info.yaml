@@ -377,6 +377,9 @@ files:
 - name: banking/banking.py
   visible: true
   learner_created: true
+- name: card.s3db
+  visible: true
+  learner_created: true
 - name: banking/card.s3db
   visible: true
   learner_created: true
@@ -402,33 +405,33 @@ feedback:
     1. Create an account
     2. Log into account
     0. Exit
-    > > 1
+    >> 1
 
     Your card has been created
     Your card number:
-    4000002966834754
+    4000006354041617
     Your card PIN:
-    4432
+    9987
 
     1. Create an account
     2. Log into account
     0. Exit
-    > > 1
+    >> 1
 
     Your card has been created
     Your card number:
-    4000001725510853
+    4000002541523237
     Your card PIN:
-    1742
+    5186
 
     1. Create an account
     2. Log into account
     0. Exit
-    > > 2
+    >> 2
     Enter your card number:
-    > > 4000002966834754
+    >> 4000006354041617
     Enter your pin:
-    > > 4432
+    >> 9987
 
     You have successfully logged in!
 
@@ -438,7 +441,7 @@ feedback:
     4. Close account
     5. Log out
     0. Exit
-    > > 3
+    >> 3
 
     Transfer
     Enter card number:
@@ -451,7 +454,7 @@ feedback:
     4. Close account
     5. Log out
     0. Exit
-    > > 3
+    >> 3
 
     Transfer
     Enter card number:
@@ -464,13 +467,13 @@ feedback:
     4. Close account
     5. Log out
     0. Exit
-    > > 3
+    >> 3
 
     Transfer
     Enter card number:
-    > > 4000001725510853
+    > > 4000002541523237
     Enter how much money you want to transfer:
-    > > 10000
+    >> 10000
     Not enough money!
 
     1. Balance
@@ -479,10 +482,10 @@ feedback:
     4. Close account
     5. Log out
     0. Exit
-    > > 2
+    >> 2
 
     Enter income:
-    > > 20000
+    >> 20000
     Income was added!
 
     1. Balance
@@ -491,13 +494,13 @@ feedback:
     4. Close account
     5. Log out
     0. Exit
-    > > 3
+    >> 3
 
     Transfer
     Enter card number:
-    > > 4000001725510853
+    > > 4000002541523237
     Enter how much money you want to transfer:
-    > > 10000
+    >> 10000
     Not enough money!
 
     1. Balance
@@ -507,5 +510,5 @@ feedback:
     5. Log out
     0. Exit
     >
-  time: Fri, 10 Jul 2020 16:34:27 UTC
+  time: Fri, 10 Jul 2020 17:42:28 UTC
 record: 4
